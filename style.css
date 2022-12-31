@@ -1,0 +1,28 @@
+/*
+Theme Name: PoweredxJesus
+Theme URI: https://www.poweredxjesus.com
+Author: PoweredxJesus
+Author URI: https://www.poweredxjesus.com
+Description: A super lightweight theme built for churches.
+Version: 2.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: poweredxjesus
+Tags: flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images
+This theme, like WordPress, is licensed under the GPL.
+*/
+
+:root{
+--body-font: 'Open Sans', 'Product Sans', sans-serif;
+--headline-font: 'Product Sans', sans-serif;
+--headline-font-thin: 'Product Sans Thin', sans-serif;
+--headline-font-light: 'Product Sans Light', sans-serif;
+--headline-font-medium: 'Product Sans Medium', sans-serif;
+--headline-font-black: 'Product Sans Black', sans-serif;
+}
+
+body { font-family:var(--body-font); }
+h1, h2, h3 { font-family:var(--headline-font); font-weight: normal; }
+p { font-size: 20px; }
+.container { max-width:960px; margin:0 auto; }
+.text-center { text-align:center; }
