@@ -13,16 +13,49 @@ This theme, like WordPress, is licensed under the GPL.
 */
 
 :root{
---body-font: 'Open Sans', 'Product Sans', sans-serif;
---headline-font: 'Product Sans', sans-serif;
---headline-font-thin: 'Product Sans Thin', sans-serif;
---headline-font-light: 'Product Sans Light', sans-serif;
---headline-font-medium: 'Product Sans Medium', sans-serif;
---headline-font-black: 'Product Sans Black', sans-serif;
+--body-font: -apple-system, BlinkMacSystemFont, sans-serif;
+--headline-font: -apple-system, BlinkMacSystemFont, sans-serif;
+
+--brand-color: var(--red);
+
+--black: #000;
+--gray-600: #333;
+--red: #D73E40;
+--blue: #0785BA;
 }
 
-body { font-family:var(--body-font); }
+
+body { font-family:var(--body-font); font-size: 21px; }
 h1, h2, h3 { font-family:var(--headline-font); font-weight: normal; }
-p { font-size: 20px; }
-.container { max-width:960px; margin:0 auto; }
+p { font-size: 23px; line-height: 1.5; }
+pre, code { font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 16px; }
+
+
+.sm-container { max-width:600px; margin:0 auto; }
+.md-container { max-width:750px; margin:0 auto; }
+.lg-container { max-width:960px; margin:0 auto; }
+.xl-container { max-width:1200px; margin:0 auto; }
+.xxl-container { max-width:1500px; margin:0 auto; }
+
+
 .text-center { text-align:center; }
+.no-underline { text-decoration:none; }
+.font-bold { font-weight: 700; }
+
+
+.text-sm { font-size:85%; }
+.text-xs { font-size:75%; }
+.text-xxs { font-size:65%; }
+
+
+.black { color: var(--black); }
+.dark-gray { color: var(--gray-600); }
+
+
+.my-0 { margin-top:0; margin-bottom:0; }
+.mt-0 { margin-top:0; }
+.mb-0 { margin-bottom:0; }
+
+
+.button { display: inline-block; border-radius: 300px; border: 1px solid var(--brand-color); color: var(--brand-color); font-weight: 700; padding: .4rem 1rem .45rem; background:white; }
+

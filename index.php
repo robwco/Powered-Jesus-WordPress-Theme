@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container">
+<div class="md-container">
 	<?php $args = array('posts_per_page' => 6, 'post_type' => 'post', 'post_status' => 'publish'); ?>
 	<?php $posts = get_posts($args); ?>
 
