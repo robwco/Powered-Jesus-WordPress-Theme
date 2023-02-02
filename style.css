@@ -12,9 +12,17 @@ Tags: flexible-header, accessibility-ready, custom-colors, custom-header, custom
 This theme, like WordPress, is licensed under the GPL.
 */
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-VF.woff2') format("woff2-variations");
+  src: url('/fonts/Montserrat-Regular.woff2') format("woff2");
+  font-weight: 1 999;
+}
+
+
 :root{
---body-font: -apple-system, BlinkMacSystemFont, sans-serif;
---headline-font: -apple-system, BlinkMacSystemFont, sans-serif;
+--body-font: 'Albert Sans',  -apple-system, BlinkMacSystemFont, sans-serif;
+--headline-font: 'Albert Sans', -apple-system, BlinkMacSystemFont, sans-serif;
 
 --brand-color: var(--red);
 
@@ -26,8 +34,11 @@ This theme, like WordPress, is licensed under the GPL.
 
 
 body { font-family:var(--body-font); font-size: 21px; }
-h1, h2, h3 { font-family:var(--headline-font); font-weight: normal; }
-p { font-size: 23px; line-height: 1.5; }
+h1, h2, h3 { font-family:var(--headline-font); }
+h1 { font-weight:normal; }
+h2 { font-weight:500; }
+h3 { font-weight:700; }
+p { font-size: 18px; line-height: 1.35; }
 pre, code { font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 16px; }
 
 
