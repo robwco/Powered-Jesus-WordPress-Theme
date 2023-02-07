@@ -12,12 +12,7 @@ Tags: flexible-header, accessibility-ready, custom-colors, custom-header, custom
 This theme, like WordPress, is licensed under the GPL.
 */
 
-@font-face {
-  font-family: 'Montserrat';
-  src: url('/fonts/Montserrat-VF.woff2') format("woff2-variations");
-  src: url('/fonts/Montserrat-Regular.woff2') format("woff2");
-  font-weight: 1 999;
-}
+
 
 
 :root{
@@ -33,12 +28,13 @@ This theme, like WordPress, is licensed under the GPL.
 }
 
 
-body { font-family:var(--body-font); font-size: 21px; }
-h1, h2, h3 { font-family:var(--headline-font); }
-h1 { font-weight:normal; }
-h2 { font-weight:500; }
-h3 { font-weight:700; }
-p { font-size: 18px; line-height: 1.35; }
+body { font-family:var(--body-font); font-size: 20px; line-height: 1.48; }
+h1, h2, h3 { font-family:var(--headline-font); margin: 1.25em 0 0; }
+h1 {font-size: 320%; font-weight: 300; letter-spacing: -.025em; line-height: 1.15; }
+h2 {font-size: 190%; font-weight: 500; letter-spacing: -.01em; line-height: 1.25;}
+h3 {font-size: 120%; font-weight: 800; line-height: 1.25;}
+li {margin:1em 0 0;}
+strong {font-weight:600; letter-spacing: -.018em;}
 pre, code { font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 16px; }
 
 
